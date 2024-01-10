@@ -164,13 +164,15 @@ body {
     body {
         background-color: rgb(213, 213, 213);
     }
-
+    
     .cabecalho {
         padding: 3%;
     }
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 10%;
+        padding: 0% 10%;
     }
 
     .apresentacao {
@@ -181,10 +183,15 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
-        /* text-align: justify; */
     }
     
     .apresentacao__imagem {
         align-self: center;
+        width: 50%;
+        position:static;
     }
+
+    #apresentacao__links__navegacao {
+        min-width: 200px;
+    }    
 }
